@@ -1,0 +1,7 @@
+matplotlib
+altair
+numpy
+pandas
+sklearn.preprocessing
+tensorflow
+plotly
