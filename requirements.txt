@@ -8,4 +8,4 @@ plotly
 streamlit
 seaborn
 # numerize
-style_metric_cards
+# style_metric_cards
