@@ -216,11 +216,15 @@ with col[1]:
 #     # Display the pie chart in Streamlit    
 #     st.plotly_chart(fig)
 
-from numerize import numerize
+# from numerize import numerize
 def calc_diff(data):
-    diff = numerize.numerize(data.iloc[-1] - data.iloc[0])
+    # diff = numerize.numerize(data.iloc[-1] - data.iloc[0])
     # res = "%.2f" % diff
-    return diff
+    diff = data.iloc[-1] - data.iloc[0]
+    # Format the difference with two decimal places
+    formatted_diff = "{:.2f}".format(diff)
+    return formatted_diff
+    # return diff
 
 from streamlit_extras.metric_cards import style_metric_cards
 col1, col2, col3, col4, col5 = st.columns(5)

@@ -7,5 +7,5 @@ tensorflow
 plotly
 streamlit
 seaborn
-numerize
+# numerize
 style_metric_cards
