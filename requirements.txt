@@ -2,6 +2,6 @@ matplotlib
 altair
 numpy
 pandas
-sklearn
+scikit-learn
 tensorflow
 plotly
