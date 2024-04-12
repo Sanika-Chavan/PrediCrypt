@@ -9,3 +9,4 @@ streamlit
 seaborn
 # numerize
 # style_metric_cards
+streamlit_extras
