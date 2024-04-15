@@ -204,7 +204,7 @@ with col[1]:
     autosize=False,
     width=400,
     height=500,)
-    st.plotly_chart(fig, theme=None)
+    st.plotly_chart(fig, theme='streamlit')
 #     df = pd.DataFrame({
 #     'category': ['BTC', 'ETH', 'ADA', 'USDT', 'LTC'],
 #     'value': [50, 15, 3, 100, 2]
